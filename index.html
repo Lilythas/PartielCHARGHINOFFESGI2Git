@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Calculatrice</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="box">
+    <h1>Calculatrice</h1>
+
+    <input id="a" type="number" placeholder="Nombre 1" />
+    <input id="b" type="number" placeholder="Nombre 2" />
+
+    <div class="buttons">
+      <button data-op="add">+</button>
+      <button data-op="sub">-</button>
+      <button data-op="mul">×</button>
+      <button id="clear">C</button>
+    </div>
+
+    <p>Résultat : <span id="result">—</span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

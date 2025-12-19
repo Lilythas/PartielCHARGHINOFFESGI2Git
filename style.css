@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.box {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+  width: 280px;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 6px 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+}
