@@ -14,6 +14,7 @@ function calc(op) {
   let res;
   if (op === "add") res = a + b;
   if (op === "sub") res = a - b;
+  if (op === "mul") res = a * b;
 
   resultEl.textContent = res;
 }
