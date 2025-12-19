@@ -11,9 +11,9 @@ function getNumbers() {
 function calc(op) {
   const { a, b } = getNumbers();
 
-  // Optionnel : si un champ est vide, Number("") = 0, donc ça marche quand même.
   let res;
   if (op === "add") res = a + b;
+  if (op === "sub") res = a - b;
 
   resultEl.textContent = res;
 }
